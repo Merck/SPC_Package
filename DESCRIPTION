@@ -1,0 +1,17 @@
+Package: Rspc
+Type: Package
+Title: Nelson Rules for Control Charts
+Version: 1.2.2
+Author: Martin Vagenknecht (MSD) [aut],
+    Jindrich Soukup (MSD) [aut],
+    Stanislav Matousek (MSD) [aut, cre],
+    Janet Alvarado (MSD) [ctb, rev]
+Maintainer: Stanislav Matousek <rspc@merck.com>
+Description: Description: Rspc is an implementation of nelson rules for control charts in R. The Rspc package implements some Statistical Process Control methods, namely Levey-Jennings type of I (individuals) chart, Shewhart C (count) chart and Nelson rules. Typical workflow is taking the time series, specify the control limits, and list of Nelson rules you want to evaluate. There are several options how to modify the rules (one sided limits, numerical parameters of rules, etc.). Package is also capable of calculating the control limits from the data (so far only for i-chart and c-chart are implemented).
+Depends: R (>= 3.1.0)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+VignetteBuilder: knitr
+Suggests: knitr
